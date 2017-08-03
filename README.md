@@ -2,10 +2,10 @@
 A simple take on a DGA system written in Go
 
 # Features
-2 Keyword Arrays
-1 TLD Array
-Optinal MD5 of domain name
-Ability to check domain and "path" for a keyword to varify its a target.
+ * 2 Keyword Arrays
+ * 1 TLD Array
+ * Optinal MD5 of domain name
+ * Ability to check domain and "path" for a keyword to varify its a target.
 
 # Other
 
