@@ -60,7 +60,7 @@ func main() {
 		defer resp.Body.Close()
 		html, err := ioutil.ReadAll(resp.Body)
 		if err != nil {
-\			goto retry
+			goto retry
 		}
 		if string(html) == Keyword {
 			fmt.Println("[Good]", "http://"+Generated, "["+string(strconv.Itoa(count))+"]")
